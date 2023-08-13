@@ -7,19 +7,28 @@ import org.fluentlenium.core.annotation.Page;
 import org.openqa.selenium.WebDriver;
 
 public class HomeStep {
-
     @Page
     HomePage homePage;
 
-    @Managed (driver = "chrome")
+
+
+    @Managed(driver = "chrome")
     WebDriver driver;
 
-    public void abrirNavegador (){
-        homePage.
+    public void abrirNavegador(){
+        homePage.openUrl("https://www.haceb.com/");
     }
 
-    @Step("dar clic en registrarse")
-    public void clciRegistro(){
+    @Step("Ir a perfil y dar click en registrarse")
+    public void ClicRegistro(){
+        homePage.realizarHoverElemento();
+        homePage.txtRegistrar.click();
+    }
+
+
+    @Step("Dar clic en ingresar a Haceb")
+    public void ClicIngresarHaceb(){
+        homePage.txtClicIngresarHaceb.click();
 
     }
 

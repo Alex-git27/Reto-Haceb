@@ -1,7 +1,5 @@
 package com.haceb.models;
 
-import com.haceb.utils.Excel;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
@@ -13,11 +11,10 @@ public class DataUsuario {
     public static ArrayList<Map<String, String>> data(){
 
         try {
-            datosUser = Excel.leerDatosDeHojaDeExcel("src/test/resources/data/DatosUsuario.xlsx", "datosUsuario");
+            datosUser = com.haceb.utils.Excel.leerDatosDeHojaDeExcel("src/test/resources/data/DatosUsuario.xlsx", "datosUsuario");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         return datosUser;
     }
-
 }

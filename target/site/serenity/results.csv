@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Agregar producto","Agregar producto al carrito de forma existosa.","PENDING","2023-08-13T00:27:52.075653-05:00[America/Bogota]","0.0","0.19"
-"Registrar un usuario","Registro Exitoso de un usuario","SUCCESS","2023-08-13T00:27:52.3044197-05:00[America/Bogota]","0.0","0.28"
+"Agregar producto","Agregar producto al carrito de forma existosa.","SUCCESS","2023-08-13T17:37:46.963871-05:00[America/Bogota]","0.0","0.21"
+"Registrar un usuario","Registro Exitoso de un usuario","SUCCESS","2023-08-12T10:54:15.2437803-05:00[America/Bogota]","0.0","0.28"
+"Registrar un usuario","Registro Exitoso de un usuario","FAILURE","2023-08-13T17:37:47.2024309-05:00[America/Bogota]","0.0","28.36"

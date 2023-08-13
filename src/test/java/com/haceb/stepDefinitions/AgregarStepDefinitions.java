@@ -2,8 +2,7 @@ package com.haceb.stepDefinitions;
 
 import io.cucumber.java.es.*;
 
-public class AgregarStepDefinitions {
-
+public class agregarStepDefinitions {
     @Dado("que el usuario da clic en el menu despleagable y selecciona los electrodomesticos de cocina")
     public void queElUsuarioDaClicEnElMenuDespleagableYSeleccionaLosElectrodomesticosDeCocina() {
 
@@ -14,7 +13,7 @@ public class AgregarStepDefinitions {
     }
     @Cuando("da clic en cualquier producto aleatoriamente y observa los detalles")
     public void daClicEnCualquierProductoAleatoriamenteYObservaLosDetalles() {
-        ;
+
     }
     @Cuando("al hacer la compra y selecciona la opcion de ir a pagar")
     public void alHacerLaCompraYSeleccionaLaOpcionDeIrAPagar() {
@@ -24,5 +23,6 @@ public class AgregarStepDefinitions {
     public void elUsuarioVisualizaElProductoAgregadoEnElCarritoDeCompras() {
 
     }
+
 
 }
