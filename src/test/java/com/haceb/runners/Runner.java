@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/",
         glue = "com.haceb.stepDefinitions",
+
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class Runner {
